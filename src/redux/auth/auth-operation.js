@@ -3,7 +3,7 @@ import axios
  from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-axios.defaults.baseURL = 'https://wallet-server-api.herokuapp.com/api';
+axios.defaults.baseURL = 'https://wallet-api-5ezy.onrender.com/api/';
 
 const token = {
   set(token) {
